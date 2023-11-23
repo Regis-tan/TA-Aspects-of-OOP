@@ -18,7 +18,7 @@ class apartment(building):
         self.units = units
     
 #Polymorphism
-#This class overrides to modify the output string to make it fit the class apartment more as it has another attribute.
+#This class overrides the "building_floors" function to modify the output string to make it fit the class apartment more as it has another attribute.
 
     def building_floors(self):
         print(f"The {self.name} has {self.floors} floors and {self.units} units.")
